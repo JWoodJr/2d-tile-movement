@@ -1,0 +1,28 @@
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./styles.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.15.0/lodash.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+	<script src="./actor.class.js"></script>
+	<script src="./world.class.js"></script>
+	<script src="./display.class.js"></script>
+	<script src="./tile-movement.js"></script>
+</head>
+
+<body class="row">
+	<!-- World map displayed here -->
+	<table id="world-table">
+		<tbody id="world-terrain"></tbody>
+	</table>
+
+	<!-- input for the sight value -->
+	<div class="text-center col-xs-2 col-xs-offset-5 input-group">
+		<span class="input-group-btn">
+			<button type="button" class="btn btn-default">Sight:</button>
+		</span>
+		<input type="number" class="form-control" id="sight-radius">
+	</div>
+</body>
+</html>
